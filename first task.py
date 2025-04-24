@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 import RPi.GPIO as GPIO
-#e
+
 class Device:
     def __init__(self, topic, mqtt_broker='localhost', port=2000):
         self.topic = topic
