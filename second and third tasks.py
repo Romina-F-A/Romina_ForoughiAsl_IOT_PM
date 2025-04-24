@@ -104,7 +104,7 @@ class Admin_panel:
         print(f'Sensors in {group_name}:')
         for sensor in self.sensors:
             if sensor.group_name == group_name:
-                print(read.sensor())
+                print(sensor.read())
 if __name__ == "__main__":
     panel = Admin_panel()
 
